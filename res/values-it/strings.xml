@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="receiver">A:</string>
+    <string name="app_name">MobiStego</string>
+    <string name="buttonSelect">Seleziona immagine</string>
+    <string name="image">Immagine</string>
+    <string name="contact">Rubrica</string>
+    <string name="text">Messaggio da codificare</string>
+    <string name="send">Invia</string>
+    <string name="hello2">MobiStego Receiver</string>
+    <string name="Button02">Decodifica</string>
+    <string name="save">Salva</string>
+    <string name="saved">Immagine salvata</string>
+    <string name="decoding">Decodifca in corso</string>
+    <string name="encoding">Codifica in corso</string>
+    <string name="saving">Salvataggio in corso</string>
+    <string name="ok">Ok</string>
+    <string name="decodeImage">Decodifica Immagine</string>
+    <string name="encodeImage">Codifica Immagine</string>
+    <string name="errorNoMobistegoImage">Non è un\'immagine Mobistgo</string>
+    <string name="errorImageTooLarge">Immagine troppo grande</string>
+</resources>

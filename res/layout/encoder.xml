@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<!-- <LinearLayout android:id="@+id/LinearLayout01"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/receiver" />
+
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditTextNum"
+			android:layout_weight="1" android:layout_width="wrap_content" android:editable="false">
+		</EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/contact"
+			android:id="@+id/ButtonContact">
+		</Button>
+	</LinearLayout>-->
+
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/image" />
+
+		<EditText android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:id="@+id/EditTextImage" android:editable="false">
+		</EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/buttonSelect"
+			android:id="@+id/ButtonSelect">
+		</Button>
+	</LinearLayout>
+
+
+
+
+
+	<TextView android:id="@+id/text" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/text" />
+
+	<EditText android:id="@+id/message" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:scrollbars="vertical" />
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/send" android:text="@string/send"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="@string/save" android:id="@+id/save"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+
+</LinearLayout>
